@@ -1,7 +1,13 @@
 li {
     list-style-type: none;
 }
-
+body{
+    border: 1px solid orange;
+        border-radius: 8px;
+        background-color: #ffffff;
+        width: 700px;
+        height: 400px;
+}
 ul {
     margin: 0;
     padding: 0;
