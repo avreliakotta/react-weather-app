@@ -63,11 +63,11 @@ export default function SearchEngine() {
           <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {Math.round(weather.wind)} km/h</li>
         </ul>
-    
-        </div>
+     </div>
     
     );
   } else {
-    return <div>{weatherForm}</div>;
+    return <div>{weatherForm}</div>
+    
   }
 }
